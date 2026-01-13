@@ -16,28 +16,28 @@
     <main>
         <section>
             <h1>DEPT® weather planner</h1>
-            <p>Picture this: an application that doesnt't just tell you the weather, but also helps you plan your activities around it. Imagine knowing excatly the perfect day to plan the hike, or when to avoid the outdoor concert due to unexpected shower. That's excatly what the Dept Weather Planner offers you</p>
-            <p>Buitlt with cutting-edge technologies, our weather planner brings you accurate, real-time weather data with a slick and user-friendly interface. But it's not just a weather app: it's an intuitive daily planner that syncs with the weather. With a range of acttivities to choose from, it suggests the best options based on current forecasted weather condition.</p>
+            <p>Picture this: an application that doesn't just tell you the weather, but also helps you plan your activities around it. Imagine knowing exactly the perfect day to plan the hike, or when to avoid the outdoor concert due to unexpected showers. That's exactly what the Dept Weather Planner offers you</p>
+            <p>Built with cutting-edge technologies, our weather planner brings you accurate, real-time weather data with a slick and user-friendly interface. But it's not just a weather app: it's an intuitive daily planner that syncs with the weather. With a range of activities to choose from, it suggests the best options based on current forecasted weather condition.</p>
             <button>Read less</button>
         </section>
 
-        <section>
+        <section class="forecast">
             <h2>Upcoming 5 days</h2>
 
             <table>
                 <tbody>
                     <tr>
-                        <td>Tuesday 22th Feb</td>
+                        <td>Tuesday 22nd Feb</td>
                         <td><img src="assets/cloud.svg" alt="Cloudy"></td>
                         <td>0° / 2°</td>
                         <td><img src="assets/raindrop.svg" alt="Rain"></td>
                         <td>0.5mm</td>
                         <td>N/W</td>
                         <td><img src="assets/arrow.svg" alt="Wind direction"></td>
-                    <tr>
+                    </tr>
                     
                     <tr>
-                        <td>Wednesday 23th Feb</td>
+                        <td>Wednesday 23rd Feb</td>
                         <td><img src="assets/cloud.svg" alt="Cloudy"></td>
                         <td>1° / 4°</td>
                         <td><img src="assets/raindrop.svg" alt="Rain"></td>
@@ -47,7 +47,7 @@
                     </tr>
 
                     <tr>
-                        <td>Thursdag 23th Feb</td>
+                        <td>Thursday 24th Feb</td>
                         <td><img src="assets/sun.svg" alt="Sunny"></td>
                         <td>1° / 5°</td>
                         <td><img src="assets/raindrop.svg" alt="Rain"></td>
@@ -66,12 +66,12 @@
                         <td><img src="assets/arrow.svg" alt="Wind direction"></td> 
                     </tr>
 
-                      <tr>
+                    <tr>
                         <td>Saturday 26th Feb</td>
                         <td><img src="assets/sun.svg" alt="Sunny"></td>
                         <td>3° / 7°</td>
                         <td><img src="assets/raindrop.svg" alt="Rain"></td>
-                        <td>0,1 mm</td>
+                        <td>0.1mm</td>
                         <td>N/W</td>
                         <td><img src="assets/arrow.svg" alt="Wind direction"></td> 
                     </tr>
@@ -83,29 +83,30 @@
 
         <section>
             
-            <form action="">
+            <form>
                 <fieldset>
                     <legend>Want to get a daily forecast?</legend>
                     <label for="email">Email address</label>
-                    <input type="email" id="email" placeholder="Enter your email adress">
+                    <input type="email" id="email" placeholder="Enter your email address">
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
         </section>
 
-        <section>
+        <section class="current-weather">
             <h2> 0° </h2>
             <p>It's currently around 0° in the Netherlands</p>
             <p>Very cold, there is snow, the roads are slippery</p>
-    
+        </section>
 
-            <section>
+
+        <section class="activities">
                 <h3>Some things you could do:</h3>
             
                 <article>
-                    <img src="assets/iceskate.jpg" width="480" height="320"alt="A person is ice skating">
+                    <img src="assets/iceskate.jpg" width="480" height="320" alt="A person is ice skating">
                     <h4>Ice skating</h4>
-                    <p>ice skating is perfect in this cold weather</p>
+                    <p>Ice skating is perfect in this cold weather</p>
                 </article>
 
                 <article>
@@ -119,19 +120,16 @@
                     <h4>Winter market</h4>
                     <p>Visiting a winter market, enjoying the lights, food and cozy atmosphere</p>
                 </article>
-            </section>
+        </section>
          
-        <section>
 
-
-
-        <section>
+        <section class="avoid-activities">
             <h3>Some things you should not do:</h3>
 
             <article>
                 <img src="assets/swimming.jpg" width="480" height="320" alt="A person swimming outside in a lake">
                 <h4>Swimming</h4>
-                <p>it's too cold too swim right now</p>
+                <p>It's too cold too swim right now</p>
             </article>
 
             <article>
