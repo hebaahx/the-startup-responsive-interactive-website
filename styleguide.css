@@ -1,0 +1,100 @@
+
+/* FONT FACES */
+ @font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
+    font-weight: 400; 
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
+    font-weight: 700; 
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+:root {
+    /* KLEUREN */
+    --primary-color: #5115f7 ;
+    --secondary-color: #f2f2f2 ;
+    --bold-text: #000000;
+    --text-color: #232323 ;
+    --white: #ffffff;
+
+    /* TYPOGRAFIE */
+    --font-family:'Lato', sans-serif ;
+    --font-size-h1: 32px;
+    --font-size-h2: 24px;
+    --font-size-h3: 20px;
+    --font-size-h4: 18px;
+    --font-size-text: 16px;
+
+    /* BORDER */
+    --border-radius: ;
+
+    /* BUTTON */
+    --button-padding: ;
+}
+
+/* GLOBAL STIJLEN */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+body{
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+h1{
+    font-size: var(--font-size-h1);
+}
+
+h2{
+    font-size: var(--font-size-h2);
+}
+
+h3{
+    font-size: var(--font-size-h3);
+}
+
+h4{
+    font-size: var(--font-size-h4);
+}
+
+p{
+    font-size: var(--font-size-text);
+}
+
+/* Button */
+button{
+    font-size: var(--font-size-text);
+    cursor: pointer;
+    border: none;
+}
+
+/* INPUTS */
+
+
+/* RADIO & CHECKBOX */
+
