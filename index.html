@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleguide.css">
-    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="index.css">
     <title>DEPT® Weather Planner</title>
 </head>
 <body>
     
-    <header>
-        <img src="assets/dept.svg" alt="DEPT logo">
-    </header>
-
     <main>
-        <section>
+        
+        <section class="intro">
+         <header> 
+            <img src="assets/dept.svg" alt="DEPT logo"> 
+        </header>
+       
             <h1>DEPT® weather planner</h1>
             <p>Picture this: an application that doesn't just tell you the weather, but also helps you plan your activities around it. Imagine knowing exactly the perfect day to plan the hike, or when to avoid the outdoor concert due to unexpected showers. That's exactly what the Dept Weather Planner offers you</p>
             <p>Built with cutting-edge technologies, our weather planner brings you accurate, real-time weather data with a slick and user-friendly interface. But it's not just a weather app: it's an intuitive daily planner that syncs with the weather. With a range of activities to choose from, it suggests the best options based on current forecasted weather condition.</p>
@@ -87,16 +88,18 @@
                 <fieldset>
                     <legend>Want to get a daily forecast?</legend>
                     <label for="email">Email address</label>
-                    <input type="email" id="email" placeholder="Enter your email address">
+                    <input type="email" id="email" placeholder="Enter your e-mailaddress">
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
         </section>
 
         <section class="current-weather">
+            <article class="current-temp">
             <h2> 0° </h2>
             <p>It's currently around 0° in the Netherlands</p>
-            <p>Very cold, there is snow, the roads are slippery</p>
+            <p>Very cold, there is snow, the roads are slippery. But we should enjoy it as long as it lasts</p>
+            </article>
         </section>
 
 
