@@ -35,6 +35,10 @@ header{
     background-color: transparent;
     color: var(--white);
     }
+
+    @media (min-width: 1440px) {
+        
+    }
 }
 
 .forecast{
@@ -68,8 +72,9 @@ form{
 
     legend{
         padding: 0.5rem 0;
-        font-weight: bold;
-        font-size: 700;
+        font-style: bold;
+        font-size: 30px;
+        
     }
 
     label{
@@ -96,6 +101,32 @@ form{
             background-color: var(--black);
             color: var(--white);
         }
+}
+
+/* animatie interactie */
+@keyframes rotateAndColor{
+    0%{
+        transform: rotate(0deg);
+        background-color: transparent;
+    }
+
+    50%{
+        transform:rotate(360deg);
+        background-color: var(--primary-color);
+    }
+
+    100%{
+        transform: rotate(0deg);
+        background-color: var(--primary-color);
+    }
+}
+
+.rotate{
+    animation-name: rotateAndColor;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 .current-weather{
@@ -144,7 +175,7 @@ form{
 .activities,
 .avoid-activities{
     padding: 1rem;
-    
+
 
     img{
         width: 450px;
