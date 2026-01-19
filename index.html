@@ -10,8 +10,9 @@
 </head>
 <body>
     
-    <main>
+    <main class="layout">
         
+      <div class="left">
         <section class="intro">
          <header> 
             <img src="assets/dept.svg" alt="DEPT logo"> 
@@ -83,7 +84,7 @@
 
         </section>
 
-        <section>
+        <section class="form">
             
             <form>
                 <fieldset>
@@ -94,7 +95,9 @@
                 </fieldset>
             </form>
         </section>
+      </div>   
 
+      <div class="right">
         <section class="current-weather">
             <article class="current-temp">
             <h2> 0° </h2>
@@ -103,52 +106,71 @@
             </article>
         </section>
 
-
+        
         <section class="activities">
                 <h3>Some things you could do:</h3>
             
                 <article>
                     <img src="assets/iceskate.jpg" width="480" height="320" alt="A person is ice skating">
-                    <h4>Ice skating</h4>
-                    <p>Ice skating is perfect in this cold weather</p>
+                   
+                    <div class="activity-text">
+                      <h4>Ice skating</h4>
+                      <p>Ice skating is perfect in this cold weather</p>
+                    </div>  
+
                 </article>
 
                 <article>
                     <img src="assets/cinema.jpg" width="480" height="320" alt="Cinema interior with seats"> 
-                    <h4>The cinema</h4>
-                    <p>Going to the cinema to watch a movie, it's cozy and warm</p>
+
+                    <div class="activity-text">
+                      <h4>The cinema</h4>
+                      <p>Going to the cinema to watch a movie, it's cozy and warm</p>
+                    </div>  
                 </article>
 
                 <article>
                     <img src="assets/wintermarkt.jpg" width="480" height="320" alt="Winter markt with lights">
-                    <h4>Winter market</h4>
-                    <p>Visiting a winter market, enjoying the lights, food and cozy atmosphere</p>
+
+                    <div class="activity-text">
+                      <h4>Winter market</h4>
+                      <p>Visiting a winter market, enjoying the lights, food and cozy atmosphere</p>
+                    </div>  
                 </article>
         </section>
          
-
         <section class="avoid-activities">
             <h3>Some things you should not do:</h3>
 
             <article>
                 <img src="assets/swimming.jpg" width="480" height="320" alt="A person swimming outside in a lake">
-                <h4>Swimming</h4>
-                <p>It's too cold too swim right now</p>
+
+                <div class="activity-text">
+                  <h4>Swimming</h4>
+                  <p>It's too cold too swim right now</p>
+                </div>  
             </article>
 
             <article>
                 <img src="assets/cycling.jpg" width="480" height="320" alt="Two people cycling on a road">
-                <h4>Cycling</h4>
-                <p>The road is too slippery to cycle</p>
+
+                <div class="activity-text">
+                  <h4>Cycling</h4>
+                  <p>The road is too slippery to cycle</p>
+                </div>  
             </article>
 
             <article>
                 <img src="assets/beach.jpg" width="480" height="320" alt="Sunglasses on the sand of the beach">
-                <h4>Go to the beach</h4>
-                <p>The beach is way too cold right now</p>
+
+                <div class="activity-text">
+                  <h4>Go to the beach</h4>
+                  <p>The beach is way too cold right now</p>
+                </div>
             </article>
 
         </section>
+      </div>  
 
     </main>
 
