@@ -131,10 +131,10 @@ form{
 }
 
 /* animatie interactie */
-@keyframes rotateAndColor{
+@keyframes rotateText{
     0%{
         transform: rotate(0deg);
-        background-color: transparent;
+       
     }
 
     50%{
@@ -148,12 +148,21 @@ form{
     }
 }
 
-.rotate{
-    animation-name: rotateAndColor;
+.rotate-text{
+    animation-name: rotateText;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    
+}
+
+.button-text{
+    display: inline-block;
+}
+
+.button-succes{
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 
 .current-weather{
@@ -253,6 +262,8 @@ form{
 
 }
 
+
+
 footer{
     background-color: var(--black);
     color: var(--white);
@@ -260,9 +271,4 @@ footer{
     text-align: center;
 
 }
-
-
-
-
-
 
