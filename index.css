@@ -213,8 +213,9 @@ form{
 
 
     img{
-        width: 450px;
-        height: 200px;
+        width: 100%;
+        max-width: 450px;
+        height: auto;
    
     }
 
@@ -267,8 +268,14 @@ form{
 footer{
     background-color: var(--black);
     color: var(--white);
-    padding: 10rem;
     text-align: center;
+    padding: 7rem;
+
+        @media (min-width: 700px) {
+            grid-column: 1 / -1;
+            padding: 10rem;
+
+    
+    }
 
 }
-
