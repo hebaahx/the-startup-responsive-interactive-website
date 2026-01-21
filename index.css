@@ -112,6 +112,12 @@ form{
                 text-align: center;
             }
 
+            &:focus-visible{
+                outline: 3px solid var(--primary-color);
+                outline-offset: 3px;
+                border-color: var(--primary-color);
+            }
+
         }
 
         button{
@@ -120,6 +126,13 @@ form{
             padding: 17px 17px;
             background-color: var(--black);
             color: var(--white);
+            transition: background-color 0.2s ease-in;
+
+            &:hover,
+            &:focus-visible{
+                background-color: var(--primary-color);
+                cursor: pointer;
+            }
         }
 
         
@@ -214,23 +227,21 @@ form{
 
     img{
         width: 100%;
-        max-width: 450px;
-        height: auto;
+        max-width: 600px;
    
     }
 
     h3{
-        font-size: var(--font-size-h3);
-        
+        font-size: 28px;
     }
 
     h4{
-        font-size: var(--font-size-h4);
+        font-size: 23px;
 
     }
 
     p{
-        font-size: var(--font-size-text);
+        font-size: 18px
     }
 
     
@@ -248,8 +259,8 @@ form{
         
 
             img{
-                width: 80px;
-                height: 80px;
+                width: 85px;
+                height: 85px;
             }
 
 
@@ -267,11 +278,11 @@ footer{
     background-color: var(--black);
     color: var(--white);
     text-align: center;
-    padding: 7rem;
+    padding: 10rem;
 
         @media (min-width: 700px) {
             grid-column: 1 / -1;
-            padding: 10rem;
+            padding: 20rem;
 
     
     }
